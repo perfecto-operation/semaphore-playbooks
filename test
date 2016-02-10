@@ -1,0 +1,5 @@
+- hosts: 'consul:production'
+  remote_user: root
+  tasks:
+    - name: test
+      ping:
